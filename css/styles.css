@@ -1,0 +1,186 @@
+
+#entete{
+	background-color: #930;
+	color:white;
+	font-size: 12px; 
+}
+#entete span{
+	float: left;
+	padding: 3px;
+}
+#entete div{
+	float: right;
+}
+.site-logo img{
+	width: 180px;
+	height: 50px;
+	margin-left: -15px;
+}
+
+/*TAILLE IMAGES*/
+.taille-images-hommes img{
+	width: 260px;
+	height: 280px;
+}
+.taille-images-femmes img{
+	width: 260px;
+	height: 280px;
+}
+
+/*MODIFICATION DE PARALLAX*/
+#parallax1-hommes{
+    background-image: url("../img/parallax/1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    z-index: 120;
+}
+#parallax1-femmes{
+    background-image: url("../img/parallax/11.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    z-index: 120;
+}
+
+/*LES MODIFICATION DE LA BAR DE NAVIGATION*/
+.navbar {
+    padding: 20px 0px;
+    padding-top: 20px;
+padding-right: 0px;
+padding-bottom: 20px;
+padding-left: 0px;
+    border-bottom: 0px none;
+    letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.46) none repeat scroll 0px 0px;
+    background-color: rgba(0, 0, 0, 0.46);
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0px 0px;
+background-clip: border-box;
+background-origin: padding-box;
+background-size: auto auto;
+    transition: background 0.8s ease-in-out 0s, padding 0.5s ease-in-out 0s;
+    transition-property: background, padding;
+transition-duration: 0.8s, 0.5s;
+transition-timing-function: ease-in-out, ease-in-out;
+transition-delay: 0s, 0s;
+    border: medium solid;
+    border-top-width: medium;
+border-right-width: medium;
+border-bottom-width: medium;
+border-left-width: medium;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: -moz-use-text-color;
+border-right-color: -moz-use-text-color;
+border-bottom-color: -moz-use-text-color;
+border-left-color: -moz-use-text-color;
+-moz-border-top-colors: none;
+-moz-border-right-colors: none;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+border-image-source: none;
+border-image-slice: 100% 100% 100% 100%;
+border-image-width: 1 1 1 1;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+    color: #7A1313;
+}
+.rd{
+   color: #F9F9F9; 
+}
+.rd:focus{
+   color: #7A1313;
+      text-decoration-line: none;  
+}
+.rd:hover{
+   color: #7A1313;
+   text-decoration-line: none; 
+}
+.dropdown-menu {
+    list-style: outside none none;
+    font-size: 14px;
+    background-color: #930;
+    left: -25px;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #F9F9F9;
+    white-space: nowrap;
+}
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .nav li.active {
+    outline: 0px none;
+        outline-width: 0px;
+        outline-style: none;
+        outline-color: -moz-use-text-color;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #930;
+}
+.top-nav-collapse {
+    background: #7A1313 none repeat scroll 0% 0%;
+    height: 105px;
+    margin-top: -22px;
+
+}
+.navbar-custom ul.nav li a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #F9F9F9;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nav.navbar-nav {
+    background-color: transparent;
+    color: white;
+}
+
+/*MODIFICATION DE LA PAGE LOGIN*/
+.login-panel {
+    margin-top: 25%;
+    box-shadow: 5px 5px;
+}
+
+
+.team-wrapper-big .wow .bounceInUp:hover{
+    background-color: red;
+}
+.but{
+position: absolute;
+bottom: 20px;
+width: 100%;
+transition: opacity 0.1s ease 0s;
+    transition-property: opacity;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+padding: 0px 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+.but:hover{
+position: absolute;
+bottom: 20px;
+width: 100%;
+transition: opacity 0.1s ease 0s;
+    transition-property: opacity;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+padding: 0px 20px;
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}

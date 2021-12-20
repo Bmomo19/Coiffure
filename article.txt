@@ -1,0 +1,52 @@
+ <section id="articles" class="home-section color-dark bg-white">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow flipInY" data-wow-offset="0" data-wow-delay="0.4s">
+					<div class="section-heading text-center">
+					<h2 class="h-bold">Articles</h2>
+					<div class="divider-header"></div>
+					<p>Les differents types d'articles disponibles</p>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center">
+		<div class="container">
+
+        <div class="row">
+                        	<?php
+								$req1 = $db->prepare('SELECT *  FROM produit  order by nomprod DESC Limit 4');
+										  
+								 $req1->execute(array());
+							   while ($resultat = $req1->fetch()) {
+								?>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class=""><img src="<?php echo 'img/produit/'.$resultat['imgprod']; ?>" width="150" height="150" alt="" /></span> 
+					</div>
+					<div class="service-desc">						
+						<h5><?php echo $resultat['nomprod']; ?></h5>
+						<p>
+						<?php echo $resultat['descriprod'].' '; ?>
+						</p>
+						<a href="#" class="btn btn-skin">Learn more</a>
+					</div>
+                </div>
+				</div>
+            </div>
+                             <?php  
+									     } 
+									 ?>
+
+					 
+			
+        </div>		
+		</div>
+		</div>
+	</section>
